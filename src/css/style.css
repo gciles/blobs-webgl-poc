@@ -1,0 +1,35 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-text: #d8d8d8;
+    --color-bg: #060606;
+}
+
+body {
+    background: var(--color-bg);
+    color: var(--color-text);
+
+    font-family: 'termina', sans-serif;
+    font-size: 16px;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+    text-align: center;
+    padding: 2rem;
+}
+
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
